@@ -1,0 +1,26 @@
+{
+	"name": "astral-collection-api",
+	"version": "1.0.0",
+	"description": "",
+	"private": "true",
+	"scripts": {
+		"start": "node src",
+		"start:dev": "nodemon src",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:cov": "jest --coverage"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@goldenius/hades-js": "^2.1.2",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"rxjs": "^6.5.5"
+	},
+	"devDependencies": {
+		"jest": "^26.0.1",
+		"nodemon": "^2.0.4"
+	}
+}
